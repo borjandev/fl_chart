@@ -246,8 +246,8 @@ class BarChartPainter extends AxisChartPainter<BarChartData> {
               top,
               right,
               bottom,
-              topLeft: borderRadius.topLeft,
-              topRight: borderRadius.topRight,
+              topLeft: Radius.zero,
+              topRight: Radius.zero,
               bottomLeft: borderRadius.bottomLeft,
               bottomRight: borderRadius.bottomRight,
             );
@@ -265,8 +265,8 @@ class BarChartPainter extends AxisChartPainter<BarChartData> {
               top,
               right,
               bottom,
-              topLeft: borderRadius.topLeft,
-              topRight: borderRadius.topRight,
+              topLeft: Radius.zero,
+              topRight: Radius.zero,
               bottomLeft: borderRadius.bottomLeft,
               bottomRight: borderRadius.bottomRight,
             );
